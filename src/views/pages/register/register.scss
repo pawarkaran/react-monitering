@@ -1,0 +1,72 @@
+
+.react-tel-input .form-control {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	// height: 3.5rem !important;
+	position: relative;
+	letter-spacing: .01rem;
+	border-radius: 0 !important;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	width: 100% !important;
+	font-size: 0.9rem !important;
+}
+.phone-input{
+  width: 5000px;
+  height: 100px;
+  margin: auto;
+}
+
+#rc-imageselect {
+  transform:scale(0.77) !important;
+  -webkit-transform:scale(0.77) !important;
+  transform-origin:0 0 !important;
+  -webkit-transform-origin:0 0 !important;
+}
+
+.card-img-top2{
+  height: 130px;
+  width: 180px;
+  margin: auto;
+  justify-content: center;
+
+}
+
+.card-bod-bg{
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-img-top2 {
+  padding-bottom: 0px;;
+  
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .card-img-top2 {
+  margin-top: 100px;
+   
+  
+  }
+}
+
+

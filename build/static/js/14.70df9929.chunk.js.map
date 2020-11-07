@@ -1,0 +1,1 @@
+{"version":3,"sources":["views/teams.js"],"names":["Teams"],"mappings":"6KAAA,2BAeeA,UAZD,WAEZ,OACE","file":"static/js/14.70df9929.chunk.js","sourcesContent":["import React from 'react'\n\n\nconst Teams = () => {\n\n  return (\n    <div>\nTeams are here\n\n    </div>\n  \n \n )\n}\n\nexport default Teams"],"sourceRoot":""}

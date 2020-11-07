@@ -1,0 +1,235 @@
+
+// ------------ navbar -prac -----------------
+
+.navbar-links-text{
+    /* color: #2c2e2f; */
+    color: #5C5C5C;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin: 20px;
+  }
+  .navbar-button-marging1{
+    border-radius: 20px;
+    // margin-left: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+   border-color: #0070ba;
+   color: #0070ba;
+  }
+  
+  .navbar-button-marging2{
+    border-radius: 20px;
+    // margin-left: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-color: #0070ba;
+    color: #0070ba;
+  
+  }
+  
+  .button-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    /* font-size: 15px; */
+  }
+  
+  .navbar-button-marging1:hover  {
+
+    // background-color: #0070ba;
+    // background: #0070ba;
+    background: #fe3b6d;
+    border-color: #fe3b6d;
+
+    color: white;
+  }
+
+  
+  .navbar-button-marging2:hover  {
+  
+    background-color: #0070ba;
+    background: #fe3b6d;
+    color: white;
+    border-color: #fe3b6d;
+  }
+  
+
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .navbar-button-marging1{
+      margin: auto;
+      margin-bottom: 5px;
+    }
+  
+    .buttons-navbar{
+      // float: right;   
+      text-align: center;
+      margin: auto;
+        }
+  
+    .navbar-links{
+    margin: auto;
+    text-align: center;
+    }
+  
+    .navbar-button-marging2{
+      margin: auto;
+  
+      
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .navbar-links{
+      margin: auto;
+      text-align: center;
+       }
+  
+       .buttons-navbar{
+        // float: right;   
+        text-align: center;
+        margin: auto;
+          }
+       
+  
+    .navbar-button-marging1{
+      margin: auto;
+      margin-bottom: 5px;;
+      // margin-left: 45px;
+      
+    }
+  
+    .navbar-button-marging2{
+      margin: auto;
+      margin-bottom: 5px;;//
+      
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    
+    .navbar-links{
+   margin: auto;
+   text-align: center;
+    }
+  
+    .buttons-navbar{
+      // float: right;   
+      text-align: center;
+      margin: auto;
+        }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .navbar-logo-img{
+        margin-left: 5px;   
+    }
+  
+    .navbar-links{
+      float: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);  
+    }
+  
+    .buttons-navbar{
+      float: right;   
+      margin-left: auto;
+        }
+  
+     .navbar-button-marging1{
+      margin: auto;    
+    }
+  
+  
+    .navbar-button-marging2{
+      margin: auto;
+      margin-left: 20px;    
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .navbar-logo-img{
+    margin-left: 5px;   
+  }
+  .navbar-links{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  // margin-right: 50%;
+  
+  }
+  .buttons-navbar{
+    float: right;   
+    margin-right: 13%;
+      }
+  
+  .navbar-button-marging1{
+    margin-right: 5px;
+  }
+  }
+  
+  
+  
+  
+//   ---------------- Button Shake annimation --------------------
+
+
+// .navbar-button-marging1:hover  {
+//     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+//     transform: translate3d(0, 0, 0);
+//     perspective: 1000px;
+//     background-color: #0070ba;
+//     background: #0070ba;
+//     color: white;
+//   }
+  
+//   @keyframes shake {
+//     10%, 90% {
+//       transform: translate3d(-1px, 0, 0);
+//     }
+//     20%, 80% {
+//       transform: translate3d(2px, 0, 0);
+//     }
+    
+//     30%, 50%, 70% {
+//       transform: translate3d(-2px, 0, 0);
+//     }
+//     40%, 60% {
+//       transform: translate3d(2px, 0, 0);
+//   }}
+  
+//   .navbar-button-marging2:hover  {
+//     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+//     transform: translate3d(0, 0, 0);
+//     perspective: 1000px;
+//     background-color: #0070ba;
+//     background: #0070ba;
+//     color: white;
+//   }
+  
+//   @keyframes shake {
+//     10%, 90% {
+//       transform: translate3d(-2px, 0, 0);
+//     }
+//     20%, 80% {
+//       transform: translate3d(3px, 0, 0);
+//     }
+    
+//     30%, 50%, 70% {
+//       transform: translate3d(-3px, 0, 0);
+//     }
+//     40%, 60% {
+//       transform: translate3d(3px, 0, 0);
+//   }}
+  

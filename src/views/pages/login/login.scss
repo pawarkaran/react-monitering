@@ -1,0 +1,158 @@
+
+#rc-imageselect {
+  transform:scale(0.77) !important;
+  -webkit-transform:scale(0.77) !important;
+  transform-origin:0 0 !important;
+  -webkit-transform-origin:0 0 !important;
+}
+
+
+
+// -------------------------------
+.sticky{
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.icon-bar{
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .card{
+margin-left: 10px;  
+margin-right: 10px;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .card{
+    margin: auto;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .card{
+    margin: auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .card{
+    margin: auto;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.card{
+  margin: auto;
+  // border-color: ;
+  border-radius: 10px;
+}
+}
+
+
+.card-bg{
+    margin: auto;
+}
+.login-page{
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+}
+
+.login-card {
+border-radius: 10px;
+border-color: #202020;}
+.login-back{
+  border: 3px;
+  color: #0691f2;
+  
+  border-radius: 10px;
+  // background-color: #0691f2;
+}
+.forgot-password{
+  text-decoration: none;
+  justify-content: right;
+  padding-top: 2px;
+  font-size: small;
+}
+
+.a-images:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  // background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.a-images:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+
+.card-img-top1 {
+  height: 130px;
+  width: 180px;
+  margin: auto;
+  justify-content: center;
+ 
+
+}
+
+.card-bod-bg{
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-img-top1 {
+  padding-bottom: 0px;;
+  
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .card-img-top1 {
+  margin-top: 70px;
+   
+  
+  }
+}
+
