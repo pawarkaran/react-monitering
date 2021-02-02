@@ -1,0 +1,1 @@
+{"version":3,"sources":["views/call.js"],"names":["Calls"],"mappings":"4KAAA,2BAeeA,UAZD,WAEZ,OACE","file":"static/js/6.6c59211c.chunk.js","sourcesContent":["import React from 'react'\n\n\nconst Calls = () => {\n\n  return (\n    <div>\nCalls are here\n\n    </div>\n  \n \n )\n}\n\nexport default Calls"],"sourceRoot":""}

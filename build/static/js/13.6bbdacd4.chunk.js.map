@@ -1,0 +1,1 @@
+{"version":3,"sources":["views/tasks.js"],"names":["Tasks"],"mappings":"6KAAA,2BAeeA,UAZD,WAEZ,OACE","file":"static/js/13.6bbdacd4.chunk.js","sourcesContent":["import React from 'react'\n\n\nconst Tasks = () => {\n\n  return (\n    <div>\nTasks are here\n\n    </div>\n  \n \n )\n}\n\nexport default Tasks"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["views/alertlog.js"],"names":["Alertlog"],"mappings":"4KACA,2BAWeA,UAPE,WACf,OACE","file":"static/js/4.abf066b4.chunk.js","sourcesContent":["\nimport React, { } from 'react'\n\n\n\nconst Alertlog = () => {\n  return (\n    <div>\n      AlertLog are here\n    </div>\n  )\n}\nexport default Alertlog"],"sourceRoot":""}
